@@ -8,7 +8,7 @@ https://betterprogramming.pub/how-to-monitor-a-spring-boot-app-with-prometheus-a
 
 ## Notes
 ### Configure Prometheus Data Source
-How to get Prometheus IP Address (that is running as Docker container)
+How to get the IP Address of Prometheus Container (that is running as Docker)
 ```shell
 docker ps
 ```
