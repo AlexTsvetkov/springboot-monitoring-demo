@@ -3,7 +3,7 @@ version: '2.1'
 services:
 
   prometheus:
-    image: prom/prometheus:v2.38.0
+    image: prom/prometheus:v2.44.0
     container_name: prometheus-container
     volumes:
       - ./prometheus/:/etc/prometheus/
@@ -14,7 +14,7 @@ services:
     restart: always
 
   grafana:
-    image: grafana/grafana-oss:9.1.4
+    image: grafana/grafana-oss:9.5.3
     user: "$UID:$GID"
     container_name: grafana-container
     depends_on:

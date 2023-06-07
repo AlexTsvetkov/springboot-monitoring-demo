@@ -11,15 +11,20 @@ https://betterprogramming.pub/how-to-monitor-a-spring-boot-app-with-prometheus-a
 3. Create Prometheus Data Source in Grafana
 4. Run DemoApplication SpringBoot App
 5. Trigger actuator endpoints
-   http://localhost:8080/actuator
-   http://localhost:8080/actuator/prometheus
-   http://localhost:8080/actuator/health
-   http://localhost:8080/actuator/metrics
+   * http://localhost:8080/actuator
+   * http://localhost:8080/actuator/prometheus
+   * http://localhost:8080/actuator/health
+   * http://localhost:8080/actuator/metrics
 6. Check Prometheus ``http_server_requests_seconds_count`` metric
 ![img_1.png](img_1.png)
 7. Explore Prometheus Data Source
 ![img_2.png](img_2.png)
 
+## Prometheus UI
+* http://localhost:9090/
+
+## Grafana UI
+* http://localhost:3000/
 
 ## Notes
 ### Configure Prometheus Data Source
