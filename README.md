@@ -29,7 +29,9 @@ https://betterprogramming.pub/how-to-monitor-a-spring-boot-app-with-prometheus-a
 ## Notes
 ### prometheus.yaml
 Scrape metrics from local running app
+
 ``host.docker.internal``
+
 https://docs.docker.com/desktop/networking/#i-want-to-connect-from-a-container-to-a-service-on-the-host
 
 ### Configure Prometheus Data Source
