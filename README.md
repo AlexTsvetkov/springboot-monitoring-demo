@@ -27,6 +27,11 @@ https://betterprogramming.pub/how-to-monitor-a-spring-boot-app-with-prometheus-a
 * http://localhost:3000/
 
 ## Notes
+### prometheus.yaml
+Scrape metrics from local running app
+``host.docker.internal``
+https://docs.docker.com/desktop/networking/#i-want-to-connect-from-a-container-to-a-service-on-the-host
+
 ### Configure Prometheus Data Source
 How to get the IP Address of Prometheus Container (that is running as Docker)
 ```shell
